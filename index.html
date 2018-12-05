@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>test</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <form action="" id="form1">
+         <div class="filds_conteiner">
+            <div>
+               <label for="first_name">First name</label>
+               <input type="text" name="first_name">
+            </div>
+            <div>
+               <label for="last_name">Last name</label>
+               <input type="text" name="last_name">
+            </div>
+            <div>
+               <label for="birth_date">Birth date</label>
+               <input type="date" name="birth_date">
+            </div>
+            <div>
+               <label for="gender">Gender</label>
+               <input list="drop_list_1" name="gender">
+            </div>
+            <div>
+               <label for="address_country">Address Country</label>
+               <input type="text" name="address_country">
+            </div>
+            <div>
+               <label for="address_city">Address City</label>
+               <input type="text" name="address_city">
+            </div>
+            <div>
+               <label for="address_line_1">Address line 1</label>
+               <input type="text" name="address_line_1">
+            </div>
+            <div>
+               <label for="address_line_2">Address line 2</label>
+               <input type="text" name="address_line_2">
+            </div>
+            <div>
+               <label for="email">Email</label>
+               <input type="email" name="email">
+            </div>
+            <div>
+               <label for="zpi">ZPI/Post code</label>
+               <input type="text" name="zpi">
+            </div>
+            <div class="conteiner_submit">
+               <input type="submit" value="Save">
+            </div>
+         </div>
+      </form>
+      <datalist id="drop_list_1">
+         <option value="Male">
+         <option value="Woman">
+      </datalist>
+   </body>
+   <script src="js/script.js"></script>
+</html>
